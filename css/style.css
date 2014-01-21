@@ -1,0 +1,15 @@
+/* star rating*/
+.user-rating {background:url(../images/stars.gif) top left repeat-x;height:25px;margin-left:5px!important;overflow: hidden;padding:0;position:relative;width:125px;}
+.user-rating a{display:block;height:25px;outline: none;overflow: hidden;padding:0;position:absolute;text-decoration:none;text-indent:-9000px;width:25px;z-index:20;}
+.user-rating a:hover{background:url(../images/stars.gif) left bottom;left:0;z-index:2;}
+.user-rating a.one-star{left:0;}
+.user-rating a.one-star:hover{width:25px;}
+.user-rating a.two-stars{left:25px;}
+.user-rating a.two-stars:hover{left: 0;width:50px;}
+.user-rating a.three-stars{left:50px;}
+.user-rating a.three-stars:hover{left: 0;width:75px;}
+.user-rating a.four-stars{left:75px;}
+.user-rating a.four-stars:hover{left: 0;width:100px;}
+.user-rating a.five-stars{left:100px;}
+.user-rating a.five-stars:hover{left: 0;width:125px;}
+.user-rating .current-rating{background:url(../images/stars.gif) left center;position:absolute;height:25px;display:block;text-indent:-9000px;z-index:1;}
